@@ -1,0 +1,2 @@
+# ¿Qué es Docker?
+Docker es una herramienta de virtualización de contenedores que permite a los desarrolladores crear, desplegar y ejecutar aplicaciones de manera eficiente y portátil utilizando imágenes y contenedores.
