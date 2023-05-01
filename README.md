@@ -1,1 +1,1 @@
-![Docker Icon](\img\Moby-logo.webp)
+![Docker Icon](img/Moby-logo.webp)
