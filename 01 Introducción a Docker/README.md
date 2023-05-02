@@ -12,7 +12,12 @@ Cuando queremos ejecutar la imagen lo que hacemos es instanciarla de manera part
 Para poder instanciar una imagen simplemente tenemos que utilizar la utilidad docker ejecutando un comando:
 
 ``docker run nombre-imagen``
-![docker-engine](../img/docker-image-container.png)
+
+<div align="center">
+    <img src="../img/docker-image-container.png" alt="docker-run"/>
+</div>
+
+<!-- ![docker-engine](../img/docker-image-container.png)-->
 
 # Arquitectura de Docker
 La arquitectura de Docker es el conjunto de componentes y procesos que se utilizan para crear y ejecutar aplicaciones en contenedores. Se compone de los siguientes elementos principales:
@@ -25,5 +30,7 @@ Es una interfaz web que expone los servicios del servidor Docker Daemon, permiti
 - **Docker Daemon (Server)**
 Es el componente principal de Docker que gestiona los contenedores, las imágenes, las redes y los volúmenes. El servidor Docker Daemon se ejecuta en el sistema operativo anfitrión y se comunica con el cliente Docker CLI y otras herramientas a través de la API REST. Además, Docker Daemon utiliza el kernel del siste,ma operativo anfitrión para crear y gestionar los contenedores de Docker de forma aislada.
 
-![docker-engine](../img/docker-engine-components.png)
+<div align="center">
+    <img src="../img/docker-engine-components.png" alt="docker-engine"/>
+</div>
 
