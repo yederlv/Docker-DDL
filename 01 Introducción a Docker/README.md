@@ -14,9 +14,7 @@ Para poder instanciar una imagen simplemente tenemos que utilizar la utilidad do
 ``docker run --name mongodb-test -p 27017:27017 -d mongo:6.0``
 
 <div align="center">
-    <img src="../img/docker-image-container.png"
-    alt="docker-run"
-    width="70%"/>
+    <img src="../img/docker-image-container.png" alt="docker-run"/>
 </div>
 
 # Arquitectura de Docker
@@ -43,8 +41,6 @@ Son los mecanismos que Docker utiliza para almacenar y compartir datos entre los
 Son los mecanismos que Docker utiliza para permitir que los contenedores se comuniquen entre sí y con el host. Las redes de Docker son redes virtuales que se utilizan para aislar los contenedores y permitir que se comuniquen de forma segura. Las redes también permiten a los contenedores conectarse a servicios externos, como bases de datos y servicios web.
 
 <div align="center">
-    <img src="../img/docker-arquitectura.png"
-    alt="docker-arquitectura"
-    width="70%"/>
+    <img src="../img/docker-arquitectura.png" alt="docker-arquitectura"/>
 </div>
 
