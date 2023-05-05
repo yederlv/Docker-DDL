@@ -17,8 +17,6 @@ Para poder instanciar una imagen simplemente tenemos que utilizar la utilidad do
     <img src="../img/docker-image-container.png" alt="docker-run"/>
 </div>
 
-<!-- ![docker-engine](../img/docker-image-container.png)-->
-
 # Arquitectura de Docker
 La arquitectura de Docker es el conjunto de componentes y procesos que se utilizan para crear y ejecutar aplicaciones en contenedores. Se compone de los siguientes elementos principales:
 - **Docker CLI (Client)**
@@ -29,6 +27,18 @@ Es una interfaz web que expone los servicios del servidor Docker Daemon, permiti
 
 - **Docker Daemon (Server)**
 Es el componente principal de Docker que gestiona los contenedores, las imágenes, las redes y los volúmenes. El servidor Docker Daemon se ejecuta en el sistema operativo anfitrión y se comunica con el cliente Docker CLI y otras herramientas a través de la API REST. Además, Docker Daemon utiliza el kernel del siste,ma operativo anfitrión para crear y gestionar los contenedores de Docker de forma aislada.
+
+- **Contenedor**
+Es una unidad de software que contiene todo lo necesario para que una aplicación se ejecute, incluyendo el código, las bibliotecas, las dependencias y el sistema operativo. Los contenedores son portables y se pueden mover de un host a otro sin necesidad de hacer modificaciones. Además, los contenedores son aislados, lo que significa que cada contenedor tiene su propio sistema de archivos y recursos, como la memoria y la CPU.
+
+- **Imágenes**
+Son los componentes básicos de Docker que se utilizan para crear contenedores. Una imagen de Docker es un paquete de software que incluye todo lo necesario para ejecutar una aplicación, incluyendo el código, las bibliotecas, las dependencias y el sistema operativo. Las imágenes de Docker se crean a partir de un archivo de definición llamado Dockerfile.
+
+- **Volumenes**
+Son los mecanismos que Docker utiliza para almacenar y compartir datos entre los contenedores y el host. Un volumen de Docker es un directorio en el host o en un contenedor que se monta en el sistema de archivos del contenedor. Los volúmenes son una forma eficiente de compartir datos entre contenedores y persistir los datos de un contenedor incluso después de que se haya detenido.
+
+- **Redes**
+Son los mecanismos que Docker utiliza para permitir que los contenedores se comuniquen entre sí y con el host. Las redes de Docker son redes virtuales que se utilizan para aislar los contenedores y permitir que se comuniquen de forma segura. Las redes también permiten a los contenedores conectarse a servicios externos, como bases de datos y servicios web.
 
 <div align="center">
     <img src="../img/docker-arquitectura.png" alt="docker-arquitectura"/>
