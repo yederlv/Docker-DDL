@@ -11,7 +11,7 @@ Cuando queremos ejecutar la imagen lo que hacemos es instanciarla de manera part
 
 Para poder instanciar una imagen simplemente tenemos que utilizar la utilidad docker ejecutando un comando:
 
-``docker run nombre-imagen``
+``docker run --name mongodb-test -p 27017:27017 -d mongo:6.0``
 
 <div align="center">
     <img src="../img/docker-image-container.png" alt="docker-run"/>
