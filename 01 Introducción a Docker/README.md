@@ -31,6 +31,6 @@ Es una interfaz web que expone los servicios del servidor Docker Daemon, permiti
 Es el componente principal de Docker que gestiona los contenedores, las imágenes, las redes y los volúmenes. El servidor Docker Daemon se ejecuta en el sistema operativo anfitrión y se comunica con el cliente Docker CLI y otras herramientas a través de la API REST. Además, Docker Daemon utiliza el kernel del siste,ma operativo anfitrión para crear y gestionar los contenedores de Docker de forma aislada.
 
 <div align="center">
-    <img src="../img/docker-engine-components.png" alt="docker-engine"/>
+    <img src="../img/docker-arquitectura.png" alt="docker-arquitectura"/>
 </div>
 
